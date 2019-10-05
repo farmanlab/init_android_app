@@ -21,5 +21,6 @@
             android:value="@string/ad_mob_app_key" />
         <!-- https://stackoverflow.com/questions/41114569/glide-javax-net-ssl-sslhandshakeexception-java-security-cert-certpathvalidato -->
         <activity android:name=".ui.settings.SettingsActivity" />
+
     </application>
 </manifest>
