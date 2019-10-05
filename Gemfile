@@ -1,0 +1,11 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# for danger
+gem "danger"
+gem 'danger-android_lint'
+gem "danger-checkstyle_format"
+gem 'danger-junit'

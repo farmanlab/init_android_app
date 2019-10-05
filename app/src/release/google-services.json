@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "project_number": "80938712472",
+    "firebase_url": "https://farmanlabrelease.firebaseio.com",
+    "project_id": "farmanlabrelease",
+    "storage_bucket": "farmanlabrelease.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80938712472:android:a99aa07fa5b48216ab7fed",
+        "android_client_info": {
+          "package_name": "com.farmanlab.dokkandb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80938712472-4iu89ucfe94aa60p6asvpe5pfa6vqobe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAThRdLEJ0UvYW1ja2BoVau4Blx2xokarA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80938712472-4iu89ucfe94aa60p6asvpe5pfa6vqobe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-9556084848462636~1474735175"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80938712472:android:ba51f2e8f3fe360c",
+        "android_client_info": {
+          "package_name": "com.farmanlabo.gitadoraskillsimulator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80938712472-4iu89ucfe94aa60p6asvpe5pfa6vqobe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAThRdLEJ0UvYW1ja2BoVau4Blx2xokarA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80938712472-4iu89ucfe94aa60p6asvpe5pfa6vqobe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80938712472:android:dddeb2b3754c0631",
+        "android_client_info": {
+          "package_name": "com.farmanlabo.mhxxmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80938712472-4iu89ucfe94aa60p6asvpe5pfa6vqobe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAThRdLEJ0UvYW1ja2BoVau4Blx2xokarA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80938712472-4iu89ucfe94aa60p6asvpe5pfa6vqobe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-9556084848462636~6102624101"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80938712472:android:4c41f2df736bb93f",
+        "android_client_info": {
+          "package_name": "com.farmanlabo.pokegomanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80938712472-jn5492mn2njt92u81j71dul26p7c019j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.farmanlabo.pokegomanager",
+            "certificate_hash": "28e759f40c4739c94ce9d4315132b56226872922"
+          }
+        },
+        {
+          "client_id": "80938712472-4iu89ucfe94aa60p6asvpe5pfa6vqobe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAThRdLEJ0UvYW1ja2BoVau4Blx2xokarA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80938712472-4iu89ucfe94aa60p6asvpe5pfa6vqobe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-9556084848462636~1506051709"
+    }
+  ],
+  "configuration_version": "1"
+}

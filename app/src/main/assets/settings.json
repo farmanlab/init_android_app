@@ -1,0 +1,22 @@
+[
+  {
+    "id": "privacy_policy",
+    "type": "Parent",
+    "title": "プライバシーポリシー"
+  },
+  {
+    "id": "open_source_license",
+    "type": "Parent",
+    "title": "オープンソースライセンス"
+  },
+  {
+    "id": "feedback",
+    "type": "Parent",
+    "title": "バグ報告・機能改善"
+  },
+  {
+    "id": "review_app",
+    "type": "Parent",
+    "title": "アプリを評価する"
+  }
+]

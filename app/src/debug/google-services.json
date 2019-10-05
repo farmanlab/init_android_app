@@ -1,0 +1,157 @@
+{
+  "project_info": {
+    "project_number": "906201984195",
+    "firebase_url": "https://farmanlabodev.firebaseio.com",
+    "project_id": "farmanlabodev",
+    "storage_bucket": "farmanlabodev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906201984195:android:67122bf0ee87e2178b8676",
+        "android_client_info": {
+          "package_name": "com.farmanlab.dokkandb.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906201984195-rvr5b06q5tmfvb8mibpa3fkogr4jb2lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVd2ac82Wlf9k_-yOXHk8zSS_jUNZvcS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906201984195-rvr5b06q5tmfvb8mibpa3fkogr4jb2lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906201984195:android:c342babfc77700ec",
+        "android_client_info": {
+          "package_name": "com.farmanlab.wifiautoswitcher.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906201984195-rvr5b06q5tmfvb8mibpa3fkogr4jb2lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVd2ac82Wlf9k_-yOXHk8zSS_jUNZvcS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906201984195-rvr5b06q5tmfvb8mibpa3fkogr4jb2lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-9556084848462636~3126734057"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906201984195:android:1b363f1d51bc41c5",
+        "android_client_info": {
+          "package_name": "com.farmanlabo.mhwmaster.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906201984195-rvr5b06q5tmfvb8mibpa3fkogr4jb2lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVd2ac82Wlf9k_-yOXHk8zSS_jUNZvcS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906201984195-rvr5b06q5tmfvb8mibpa3fkogr4jb2lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906201984195:android:dddeb2b3754c0631",
+        "android_client_info": {
+          "package_name": "com.farmanlabo.mhxxmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906201984195-rvr5b06q5tmfvb8mibpa3fkogr4jb2lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVd2ac82Wlf9k_-yOXHk8zSS_jUNZvcS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906201984195-rvr5b06q5tmfvb8mibpa3fkogr4jb2lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906201984195:android:9bdc745021989360",
+        "android_client_info": {
+          "package_name": "com.farmanlabo.pokegomanager.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906201984195-rvr5b06q5tmfvb8mibpa3fkogr4jb2lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVd2ac82Wlf9k_-yOXHk8zSS_jUNZvcS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906201984195-rvr5b06q5tmfvb8mibpa3fkogr4jb2lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

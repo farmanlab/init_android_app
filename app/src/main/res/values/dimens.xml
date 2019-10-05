@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_normal">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_ex_large">24dp</dimen>
+
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_normal">8dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_ex_large">24dp</dimen>
+
+    <dimen name="bottom_sheet_corner_radius">16dp</dimen>
+
+    <!--    settings-->
+    <dimen name="settings_min_height">52dp</dimen>
+</resources>
