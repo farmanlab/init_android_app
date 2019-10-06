@@ -44,8 +44,8 @@ android {
     }
 
     lintOptions {
-        xmlOutput = file("build/reports/lint/lint-result.xml")
-        htmlOutput = file("build/reports/lint/lint-result.html")
+        setXmlOutput(file("build/reports/lint/lint-result.xml"))
+        setHtmlOutput(file("build/reports/lint/lint-result.html"))
         isAbortOnError = false
     }
 
