@@ -136,6 +136,9 @@ dependencies {
     Dependencies.Kapt.values().forEach {
         kapt(it.value)
     }
+    Dependencies.DevImplementation.values().forEach {
+        debugImplementation(it.value)
+    }
 }
 
 tasks.withType < KotlinCompile > {
