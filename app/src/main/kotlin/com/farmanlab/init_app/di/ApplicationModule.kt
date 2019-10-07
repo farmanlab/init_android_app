@@ -11,7 +11,7 @@ val applicationModule = Kodein.Module("application_module", false) {
     import(networkModule)
     import(adManagerModule)
     import(dataSourceModule)
-    import(useCaseSourceModule)
+    import(useCaseModule)
     bind<AppInitializer>() with singleton {
         AppInitializerImpl(
             context = instance(),
