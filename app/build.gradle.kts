@@ -1,3 +1,8 @@
+import BuildSettings.compileSdkVersion
+import BuildSettings.minSdkVersion
+import BuildSettings.targetSdkVersion
+import BuildSettings.versionCode
+import BuildSettings.versionName
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
 
@@ -5,6 +10,7 @@ plugins {
     id("com.android.application")
     id("org.jlleitschuh.gradle.ktlint")
     id("com.google.gms.oss.licenses.plugin")
+    id("com.github.ben-manes.versions").version("0.27.0")
     kotlin("android")
     kotlin("android.extensions")
     kotlin("kapt")

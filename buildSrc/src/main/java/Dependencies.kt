@@ -6,6 +6,7 @@ object Versions {
     const val Room = "2.2.1"
     const val Navigation = "2.1.0"
     const val Coroutines = "1.3.2"
+    const val WorkManager = "2.1.0"
 
     // Support Library
     const val KtxSupport = "1.2.0-beta01"
@@ -126,6 +127,7 @@ object Dependencies {
         JETPACK_RECYCLER_VIEW("androidx.recyclerview:recyclerview:${Versions.RecyclerView}"),
         JETPACK_CONSTATINT_LAYOUT("androidx.constraintlayout:constraintlayout:${Versions.ConstraintLayout}"),
         JETPACK_CARD_VIEW("androidx.cardview:cardview:1.0.0"),
+        JETPACK_WORK_MANAGER("androidx.work:work-runtime-ktx:${Versions.WorkManager}"),
 
         // Material Design
         MATERIAL("com.google.android.material:material:${Versions.Material}"),
