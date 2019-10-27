@@ -1,59 +1,69 @@
 @Suppress("unused")
 object Versions {
-    const val Kotlin = "1.3.41"
-    const val Lifecycle = "2.2.0-alpha04"
-    const val WorkManager = "2.1.0"
-    const val Room = "2.2.0-alpha02"
-    const val Coroutines = "1.1.1"
-    const val CameraX = "1.0.0-alpha01"
+    // region core
+    const val Kotlin = "1.3.50"
+    const val Lifecycle = "2.2.0-rc01"
+    const val Room = "2.2.1"
+    const val Navigation = "2.1.0"
+    const val Coroutines = "1.3.2"
 
     // Support Library
-    const val KtxSupport = "1.1.0-alpha04"
-    const val JetpackActivity = "1.1.0-alpha01"
-    const val Paging = "2.1.0"
+    const val KtxSupport = "1.2.0-beta01"
+    const val RecyclerView = "1.1.0-rc01"
+    const val JetpackActivity = "1.1.0-rc01"
+    const val AppCompat = "1.1.0"
+    const val ConstraintLayout = "2.0.0-beta3"
+    const val Material = "1.2.0-alpha01"
 
-    // Play Services
-    const val PlayServices = "16.1.0"
+    // logging
+    const val Timber = "4.7.1"
+
+    // util
+    const val Threeten = "1.2.1"
 
     // test
-    const val SupportTest = "1.1.2-alpha02"
-    const val Espresso = "3.2.0-alpha02"
-    const val Mockito = "2.8.9"
+    const val TestExt = "1.1.2-alpha02"
+    const val SupportTest = "1.3.0-alpha02"
+    const val Espresso = "3.3.0-alpha02"
+    const val Mockito = "3.1.0"
     const val MockitoKotlin = "1.5.0"
-
-    // GooglePlayServices
-    const val GooglePlayServices = "16.0.0"
+    const val Robolectric = "4.3.1"
+    const val Truth = "1.0"
 
     // ktlint
     const val KtLintGradle = "8.2.0"
     const val KtLint = "0.31.0"
 
     // OkHttp3
-    const val OkHttp3 = "4.0.1"
+    const val OkHttp3 = "4.2.2"
 
     // Retrofit
-    const val Retrofit = "2.6.0"
+    const val Retrofit = "2.6.2"
     const val RetrofitKotlinCoroutines = "0.9.2"
 
     // Moshi
     const val Moshi = "1.8.0"
-    const val Kotshi = "2.0-rc2"
+    const val Kotshi = "2.0.1"
 
     // Firebase
-    const val FirebaseCore = "16.0.8"
-    const val FirebaseAd = "17.2.0"
-    const val FirebaseRemoteConfig = "16.5.0"
+    const val FirebaseRemoteConfig = "19.0.3"
+    const val FirebaseAd = "18.2.0"
+    const val FirebaseCore = "17.2.0"
+    const val FirebaseKtx = "19.2.0"
 
     // DI
-    const val Kodein = "6.1.0"
+    const val Kodein = "6.4.1"
 
     // UI
-    const val Groupie = "2.3.0"
-    const val Glide = "4.9.0"
-    const val flexBoxLayout = "1.1.0"
+    const val Groupie = "2.7.1"
+    const val Glide = "4.10.0"
+    const val flexBoxLayout = "1.1.1"
 
     // Ad
-    const val AdConsent = "1.0.6"
+    const val AdConsent = "1.0.7"
+
+    // GooglePlayServices
+    const val GooglePlayServices = "17.0.0"
 
     // debug
     const val Hyperion = "0.9.27"
@@ -74,12 +84,12 @@ object Dependencies {
         KOTLIN_ANDROID_COROUTINEE("org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.Coroutines}"),
 
         // utils
-        THREE_TEN("com.jakewharton.threetenabp:threetenabp:1.2.0"),
+        THREE_TEN("com.jakewharton.threetenabp:threetenabp:${Versions.Threeten}"),
         LIVE_DATA_EXT("com.snakydesign.livedataextensions:lives:1.3.0"),
 //        GUAVA("com.google.guava:guava:27.0.1-android"),
 
         // logging
-        TIMBER("com.jakewharton.timber:timber:4.7.1"),
+        TIMBER("com.jakewharton.timber:timber:${Versions.Timber}"),
 
         // di
         KODEIN("org.kodein.di:kodein-di-generic-jvm:${Versions.Kodein}"),
@@ -110,23 +120,21 @@ object Dependencies {
         // Support Library
         JETPACK_CORE_KTX("androidx.core:core-ktx:${Versions.KtxSupport}"),
         JETPACK_ANNOTATION("androidx.annotation:annotation:1.0.1"),
-        JETPACK_APPCOMPAT("androidx.appcompat:appcompat:${Versions.KtxSupport}"),
+        JETPACK_APPCOMPAT("androidx.appcompat:appcompat:${Versions.AppCompat}"),
         JETPACK_ACTIVITY("androidx.activity:activity:${Versions.JetpackActivity}"),
         JETPACK_FRAGMENT_KTX("androidx.fragment:fragment-ktx:${Versions.KtxSupport}"),
-        JETPACK_RECYCLER_VIEW("androidx.recyclerview:recyclerview:${Versions.KtxSupport}"),
-        JETPACK_CONSTATINT_LAYOUT("androidx.constraintlayout:constraintlayout:2.0.0-alpha3"),
+        JETPACK_RECYCLER_VIEW("androidx.recyclerview:recyclerview:${Versions.RecyclerView}"),
+        JETPACK_CONSTATINT_LAYOUT("androidx.constraintlayout:constraintlayout:${Versions.ConstraintLayout}"),
         JETPACK_CARD_VIEW("androidx.cardview:cardview:1.0.0"),
-        JETPACK_PAGING("androidx.paging:paging-runtime-ktx:${Versions.Paging}"),
 
         // Material Design
-        MATERIAL("com.google.android.material:material:1.0.0"),
+        MATERIAL("com.google.android.material:material:${Versions.Material}"),
 
         // Arch
         JETPACK_LIFECYCLE_EXTENSIONS("androidx.lifecycle:lifecycle-extensions:${Versions.Lifecycle}"),
         JETPACK_LIFECYCLE_VIEWMODEL_KTX("androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.Lifecycle}"),
         JETPACK_LIFECYCLE_LIVEDATA("androidx.lifecycle:lifecycle-livedata:${Versions.Lifecycle}"),
         JETPACK_ROOM_KTX("androidx.room:room-ktx:${Versions.Room}"),
-        JETPACK_WORK_MANAGER_KTX("androidx.work:work-runtime-ktx:${Versions.WorkManager}"),
 
         // OSS LICENSES
         OSS_LICENSES("com.google.android.gms:play-services-oss-licenses:${Versions.GooglePlayServices}"),
@@ -150,7 +158,7 @@ object Dependencies {
 
     enum class AndroidTestImplementation(val value: String) {
         JUNIT("junit:junit:4.12"),
-        TEST_EXT("androidx.test.ext:junit:${Versions.SupportTest}"),
+        TEST_EXT("androidx.test.ext:junit:${Versions.TestExt}"),
         TEST_RULES("androidx.test:rules:${Versions.SupportTest}"),
         TEST_RUNNER("androidx.test:runner:${Versions.SupportTest}"),
         ESPRESSO_CORE("androidx.test.espresso:espresso-core:${Versions.Espresso}"),
@@ -163,8 +171,8 @@ object Dependencies {
         JUNIT("junit:junit:4.12"),
         MOCKITO("org.mockito:mockito-core:${Versions.Mockito}"),
         MOCKTIO_KOTLIN("com.nhaarman:mockito-kotlin:${Versions.MockitoKotlin}"),
-        TRUTH("com.google.truth:truth:0.42"),
-        ROBORECTRIC("org.robolectric:robolectric:4.2"),
+        TRUTH("com.google.truth:truth:${Versions.Truth}"),
+        ROBORECTRIC("org.robolectric:robolectric:${Versions.Robolectric}"),
         ANDROID_X_TEST_CORE("androidx.test:core:1.0.0")
     }
 
@@ -183,7 +191,7 @@ object Dependencies {
         HYPERION_DISK("com.willowtreeapps.hyperion:hyperion-disk:${Versions.Hyperion}"),
         HYPERION_RECORDER("com.willowtreeapps.hyperion:hyperion-recorder:${Versions.Hyperion}"),
         HYPERION_PHOENIX("com.willowtreeapps.hyperion:hyperion-phoenix:${Versions.Hyperion}"),
-        HYPERION_SHARED_PREFERENCES("com.willowtreeapps.hyperion-shared-preferences:${Versions.Hyperion}"),
+        HYPERION_SHARED_PREFERENCES("com.willowtreeapps.hyperion:hyperion-shared-preferences:${Versions.Hyperion}"),
         HYPERION_TIMBER("com.willowtreeapps.hyperion:hyperion-timber:${Versions.Hyperion}"),
     }
 }
