@@ -18,7 +18,7 @@ import com.farmanlab.kodeinextension.retainedKodeinWithCopy
 import com.google.android.gms.oss.licenses.OssLicensesMenuActivity
 import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.databinding.BindableItem
-import com.xwray.groupie.databinding.ViewHolder
+import com.xwray.groupie.databinding.GroupieViewHolder
 import org.kodein.di.Kodein
 import org.kodein.di.KodeinAware
 import org.kodein.di.generic.instance
@@ -28,7 +28,7 @@ class SettingsActivity : AppCompatActivity(), KodeinAware {
     override val kodein: Kodein by retainedKodeinWithCopy {}
 
     private lateinit var bind: ActivitySettingsBinding
-    private val adapter = GroupAdapter<ViewHolder<*>>()
+    private val adapter = GroupAdapter<GroupieViewHolder<*>>()
     private val viewModelFactory: ViewModelProvider.Factory by instance()
     private val viewModel: SettingsViewModel by viewModels { viewModelFactory }
 
