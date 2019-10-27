@@ -1,2 +1,2 @@
 include("app")
-rootProject.name = "init-app"
+rootProject.name = "init_app"
