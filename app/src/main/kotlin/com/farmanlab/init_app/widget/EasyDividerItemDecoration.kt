@@ -13,12 +13,20 @@ import kotlin.math.roundToInt
 
 class EasyDividerItemDecoration(
     context: Context,
-    private val drawable: Drawable,
+    drawable: Drawable,
     private val orientation: Int = RecyclerView.VERTICAL,
     private val showBeforeFirstItem: Boolean = false,
     private val showAfterLastItem: Boolean = false,
     private val shouldDrawSkipFilter: ((RecyclerView, View) -> Boolean)? = null
 ) : DividerItemDecoration(context, orientation) {
+
+    init {
+        setDrawable(drawable)
+    }
+
+    override fun getDrawable(): Drawable {
+        return checkNotNull(super.getDrawable())
+    }
 
     constructor(
         context: Context,
